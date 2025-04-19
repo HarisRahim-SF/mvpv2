@@ -1,0 +1,50 @@
+.spline-viewer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.spline-viewer-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #333;
+  text-align: center;
+}
+
+.spline-viewer-description {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #555;
+  text-align: center;
+}
+
+.spline-viewer-frame {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  background-color: #f8f9fa;
+  margin-bottom: 2rem;
+}
+
+.spline-viewer-iframe {
+  display: block;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .spline-viewer-container {
+    padding: 1rem;
+  }
+  
+  .spline-viewer-title {
+    font-size: 1.5rem;
+  }
+  
+  .spline-viewer-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+} 
